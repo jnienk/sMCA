@@ -4,16 +4,18 @@
 ## Communications in Statistics: Simulation and Computation
 ## Authors: J Nienkemper-Swanepoel, NJ le Roux & S Gardner-Lubbe
 ## Corresponding author: J Nienkemper-Swanepoel
+## Centre for Multi-dimensional data visualisation (MuViSU), 
+## Department of Statistics and Actuarial Science, Stellenbosch University.
 ## 2023
 ###################################################
 
 ###required libraries:
 library(ca)
 
-###data sets:
+###example data sets:
 
-comp.dat <- read.table(file="Data\\comp_dat.txt",sep=",")	#simulated complete data set (uniform distribution n=100, p=5)
-miss.dat <- read.table(file="Data\\miss_dat.txt",sep=",")	#10% missing at random
+comp.dat <- read.table(file="Data\\comp_dat.txt",sep=",")
+miss.dat <- read.table(file="Data\\miss_dat.txt",sep=",")
 
 ###functions:
 #mysMCA(), adap.mjca(), subinr(), CLPna(), df2fact(), delCL(), biplFig, FormatDat()
