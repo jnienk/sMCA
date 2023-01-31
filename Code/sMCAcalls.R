@@ -26,7 +26,7 @@ source("Code\\sMCAfunctions.R")
 miss.dat <- df2fact(miss.dat)   #to ensure data frame consists of factor variables
 miss.dat <- FormatDat(miss.dat) #to ensure that the formatting of the data is consistent
 smca.out <- mysMCA(datNA=miss.dat, method="single", seed=1234)
-biplFig(CLPs=out$obsCLPs, Zs=out$obsZs, Lvls=out$obslvl, Z.col="grey37", CLP.col="forestgreen", Z.pch=1, CLP.pch=17, CLP.cex=1.7, Z.cex=1, title="sMCA biplot")
+biplFig(CLPs=smca.out$obsCLPs, Zs=smca.out$obsZs, Lvls=smca.out$obslvl, Z.col="grey37", CLP.col="forestgreen", Z.pch=1, CLP.pch=17, CLP.cex=1.7, Z.cex=1, title="sMCA biplot")
 
 #MCA and construction of biplot
 comp.dat <- df2fact(comp.dat)   #to ensure data frame consists of factor variables
