@@ -9,6 +9,6 @@ Centre for Multi-dimensional data visualisation (MuViSU), Department of Statisti
 To start:
 Open Code > sMCAcalls.R
 
-Users have the option of utilising an example data set, *comp.dat.txt*, which is a fully observed simulated data set (uniform distribution n=100, p=5). This is accompanied by *miss.dat.txt* which is the incomplete version of *comp.dat.txt* with 10% missing values inserted with a missing at random mechanism.
+Users have the option of utilising an example data set, *comp.dat.txt*, which is a fully observed simulated data set (uniform distribution n=100, p=5). This is accompanied by *miss.dat.txt* which is the incomplete version of *comp.dat.txt* with 10% missing values inserted with a missing at random (MAR) mechanism.
 
 Alternatively, incomplete categorical multivariate data sets may be inserted and used in the section for **sMCA and construction of biplot** in line 27-31.
