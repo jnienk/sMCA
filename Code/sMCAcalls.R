@@ -14,8 +14,8 @@ library(ca)
 
 ###example data sets:
 
-comp.dat <- read.table(file="Data\\comp_dat.txt",sep=",")
-miss.dat <- read.table(file="Data\\miss_dat.txt",sep=",")
+comp.dat <- read.table(file="Data\\comp.dat.txt",sep=",")
+miss.dat <- read.table(file="Data\\miss.dat.txt",sep=",")
 
 ###functions:
 #mysMCA(), adap.mjca(), subinr(), CLPna(), df2fact(), delCL(), biplFig, FormatDat()
