@@ -1,7 +1,7 @@
 # sMCA
 sMCA biplots to visualise complete subsets of incomplete multivariate categorical data.
 
-In order to effortlessly apply the presented methodology in "On subset multiple correspondence analysis for incomplete multivariate categorical data" in **Communications in Statistics: Simulation and Computation**.
+In order to effortlessly apply the presented methodology in "On subset multiple correspondence analysis for incomplete multivariate categorical data" in **Communications in Statistics: Simulation and Computation**. (https://doi.org/10.1080/03610918.2023.2173779)
 
 Authors: J Nienkemper-Swanepoel, NJ le Roux & S Gardner-Lubbe
 Centre for Multi-dimensional data visualisation (MuViSU), Department of Statistics and Actuarial Science, Stellenbosch University.
